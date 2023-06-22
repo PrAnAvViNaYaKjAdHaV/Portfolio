@@ -1,0 +1,15 @@
+.Technology__container {
+  padding: 2rem;
+  background-color: var(--color-light-dark);
+  color: white;
+  height: 100%;
+}
+.Technology__skills {
+  padding: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .Technology__container h1 {
+    text-align: center;
+  }
+}

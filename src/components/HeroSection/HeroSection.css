@@ -1,0 +1,125 @@
+.Hero__section {
+  background-color: var(--color-light-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 0 3rem;
+  gap: 5rem;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.HeroSection__left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  z-index: 2;
+}
+.HeroSection__right {
+  flex: 0.65;
+  position: relative;
+}
+.HeroSection__right img {
+  position: absolute;
+  top: -11rem;
+  right: 0;
+  z-index: 1;
+  animation: 1.5s ease FadeIn;
+}
+
+.HeroSection__left h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: var(--color-white);
+  animation: 1.5s ease FadeIn;
+}
+
+.HeroSection__left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--color-light-gray);
+  animation: 1.5s ease FadeIn;
+}
+
+button {
+  padding: 1rem 3rem;
+  border-radius: 83px;
+  background: var(--linear-gradient-background);
+  border-radius: 83px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  animation: 1.5s ease FadeIn;
+}
+
+@media screen and (max-width: 1331px) {
+  .Hero__section {
+    height: 89vh;
+  }
+  .HeroSection__left h1 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .HeroSection__left p {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  button {
+    font-size: 20px;
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 852px) {
+  .HeroSection__right {
+    flex: 0.1 0.1 1px;
+  }
+  .Hero__section {
+    overflow: clip;
+  }
+  .HeroSection__left h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .HeroSection__left p {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  button {
+    font-size: 17px;
+    padding: 0.34rem 1rem;
+  }
+}
+
+@media screen and (max-width: 561px) {
+  .Hero__section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .HeroSection__left h1 {
+    font-size: 30px;
+  }
+  .HeroSection__left p {
+    font-size: 15px;
+  }
+  .HeroSection__right {
+    display: none;
+  }
+  .HeroSection__left {
+    align-items: center;
+    justify-content: center;
+  }
+  .HeroSection__left {
+    text-align: center;
+  }
+}

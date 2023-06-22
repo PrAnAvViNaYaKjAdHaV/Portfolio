@@ -1,0 +1,111 @@
+.Nav__bar {
+  padding: 1rem;
+  background-color: var(--color-light-dark);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Nav__logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0.8rem;
+  animation: 1.5s ease FadeIn;
+}
+.Nav__logo h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  margin-left: 0.8rem;
+}
+.Nav__logo img {
+  width: 27px;
+  margin: 0 0.5rem 0 0;
+}
+
+.Nav__section {
+  flex: 0.95;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation: 1.5s ease FadeIn;
+}
+.Nav__section p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.Nav__socialMedia {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 3rem 0 0;
+  animation: 1.5s ease FadeIn;
+}
+
+.Nav__socialMedia div {
+  margin-right: 0.8rem;
+}
+.Nav__hamburger {
+  display: none;
+}
+
+.Nav_overlay {
+  position: fixed;
+  padding: 1rem;
+  width: 100%;
+  height: max-content;
+  top: 65px;
+  right: 0;
+  color: var(--color-light-dark);
+  background-color: var(--color-white);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: 1.5s ease FadeIn;
+}
+.Nav_overlay p {
+  animation: 2s ease FadeIn;
+  align-self: center;
+}
+.HamburgerMenue {
+  animation: 1.5s ease FadeIn;
+}
+@media screen and (max-width: 1100px) {
+  .Nav__socialMedia,
+  .Nav__logo {
+    flex: 0;
+  }
+  .Nav__section {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .Nav__socialMedia {
+    margin-right: 0;
+  }
+  .Nav__logo {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Nav__section,
+  .Nav__socialMedia {
+    display: none;
+  }
+  .Nav__hamburger {
+    display: contents;
+  }
+}
+
+/*animation */

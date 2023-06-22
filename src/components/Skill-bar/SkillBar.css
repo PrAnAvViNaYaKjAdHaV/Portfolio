@@ -1,0 +1,40 @@
+.SkillBar__main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.Skills__name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Skills__bar {
+  padding: 1rem;
+}
+.Skills__bar__progress {
+  padding: 0.4rem;
+  background: var(--linear-gradient-background);
+  border-radius: 13px;
+  align-self: center;
+  margin: 0.4rem 0;
+}
+
+.advance {
+  width: 65%;
+}
+.regular {
+  width: 35%;
+}
+
+.revealh {
+  position: relative;
+  width: 0;
+  opacity: 0;
+  transition: 4s all ease;
+}
+
+.revealh.active {
+  width: 100%;
+  opacity: 1;
+}
