@@ -35,6 +35,10 @@
   justify-content: space-between;
   animation: 1.5s ease FadeIn;
 }
+.Nav__section a{
+  text-decoration: none;
+  color: white;
+}
 .Nav__section p {
   font-family: var(--font-family);
   font-weight: 500;
@@ -52,6 +56,10 @@
 
 .Nav__socialMedia div {
   margin-right: 0.8rem;
+}
+.Nav__socialMedia div a{
+  text-decoration: none;
+  color: white;
 }
 .Nav__hamburger {
   display: none;

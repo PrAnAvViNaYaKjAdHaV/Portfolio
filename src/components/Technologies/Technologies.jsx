@@ -6,7 +6,7 @@ function revealh() {
   while (i < revealsh.length) {
     var windowHeight = window.innerHeight;
     var elementTop = revealsh[i] && revealsh[i].getBoundingClientRect().top;
-    var elementVisible = 150;
+    var elementVisible = 50;
     if (elementTop < windowHeight - elementVisible) {
       revealsh[i].classList.add("active");
     } else {
@@ -18,7 +18,7 @@ function revealh() {
 window.addEventListener("scroll", revealh);
 const Technologies = () => {
   return (
-    <div className="Technology__container">
+    <div className="Technology__container" id="Technologies">
       <h1 className="reveal">Technologies</h1>
       <div className="Technology__skills">
         <SkillBar skills="html" level="Advance" />

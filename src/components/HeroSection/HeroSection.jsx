@@ -1,4 +1,4 @@
-import React from "react";
+
 import Box from "../../assets/drawing.png";
 import "./HeroSection.css";
 const HeroSection = () => {
@@ -10,7 +10,7 @@ const HeroSection = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dolor
           sunt aliquam reprehenderit necessitatibus eligendi quidem, sed facere
         </p>
-        <button>Let's begin</button>
+        <button>Resume</button>
       </div>
       <div className="HeroSection__right">
         <img src={Box} />

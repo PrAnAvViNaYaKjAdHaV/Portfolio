@@ -18,19 +18,19 @@ const Nav = () => {
         <p>Portfolio</p>
       </div>
       <div className="Nav__section">
-        <p>Projects</p>
-        <p>Technologies</p>
-        <p>About me</p>
+        <a href="#Projects">Projects</a>
+        <a href="#Technologies">Technologies</a>
+        <a href="#About_me">About me</a>
       </div>
       <div className="Nav__socialMedia ">
         <div>
-          <AiFillGithub size={27} />
+          <a href="https://github.com/PrAnAvViNaYaKjAdHaV" target="blank"><AiFillGithub size={27} /></a>
         </div>
         <div>
-          <AiFillLinkedin size={27} />
+          <a href="https://www.linkedin.com/in/pranav-jadhav-501435219/" target="blank"><AiFillLinkedin size={27} /></a>
         </div>
         <div>
-          <AiFillTwitterCircle size={27} />
+         <a href="https://twitter.com/pranav31274812" target="blank"> <AiFillTwitterCircle size={27} /></a>
         </div>
       </div>
       <div className="Nav__hamburger" onClick={() => setMenue((prev) => !prev)}>
