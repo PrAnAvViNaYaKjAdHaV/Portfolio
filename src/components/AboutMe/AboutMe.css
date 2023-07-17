@@ -31,6 +31,7 @@
 
 @media (max-width: 767px) {
     .About_me {
+      height: 100vh;
        flex-direction:column;
        justify-content: start;
     }
