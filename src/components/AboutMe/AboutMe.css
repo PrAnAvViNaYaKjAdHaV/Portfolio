@@ -37,6 +37,10 @@
     }
     .my_info{
       flex: 0;
+      
+    }
+    .my_info p{
+      width: 100%;
     }
     .Contact_info {
       flex: 0;
