@@ -37,12 +37,13 @@
     }
     .my_info{
       flex: 0;
-      
+      padding:0.6rem;
     }
     .my_info p{
       width: 100%;
     }
     .Contact_info {
       flex: 0;
+      padding:2rem 0.6rem 0.6rem 0.6rem;
     }
 }
