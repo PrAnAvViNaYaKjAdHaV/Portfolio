@@ -12,4 +12,7 @@
   .Technology__container h1 {
     text-align: center;
   }
+  .Technology__skills{
+    padding: 0;
+  }
 }
