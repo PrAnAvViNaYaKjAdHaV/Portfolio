@@ -49,7 +49,7 @@
   animation: 1.5s ease FadeIn;
 }
 
-button {
+.resume{
   padding: 1rem 3rem;
   border-radius: 83px;
   background: var(--linear-gradient-background);
@@ -57,6 +57,18 @@ button {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  animation: 1.5s ease FadeIn;
+}
+button {
+    padding: 1rem 3rem;
+  border-radius: 83px;
+  background: var(--linear-gradient-background);
+  border-radius: 83px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 19px;
   line-height: 42px;
   color: #ffffff;
   animation: 1.5s ease FadeIn;

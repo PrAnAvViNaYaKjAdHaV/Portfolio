@@ -40,13 +40,26 @@
   margin-bottom: 0.5rem;
 }
 .Project__button {
-  padding: 0.2rem 1rem;
-  font-size: 17 px;
+    text-decoration: none;
+    padding: 0.2rem 0.7rem;
+    border-radius: 83px;
+    background: var(--linear-gradient-background);
+    border-radius: 83px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 42px;
+    color: #ffffff;
+    animation: 1.5s ease FadeIn;
 }
 .Project__box img {
   width: 100%;
 }
-
+.Project_Link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 @media screen and (max-width: 750px) {
   .Project__content h1 {
     text-align: center;

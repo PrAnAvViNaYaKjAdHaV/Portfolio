@@ -4,8 +4,8 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   AiFillLinkedin,
-  RxHamburgerMenu,
-} from "react-icons/all";
+} from "react-icons/ai";
+import { RxHamburgerMenu } from 'react-icons/rx'
 import Logo from "../../assets/logo.png";
 
 import "./nav.css";
@@ -30,7 +30,7 @@ const Nav = () => {
           <a href="https://www.linkedin.com/in/pranav-jadhav-501435219/" target="blank"><AiFillLinkedin size={27} /></a>
         </div>
         <div>
-         <a href="https://twitter.com/pranav31274812" target="blank"> <AiFillTwitterCircle size={27} /></a>
+          <a href="https://twitter.com/pranav31274812" target="blank"> <AiFillTwitterCircle size={27} /></a>
         </div>
       </div>
       <div className="Nav__hamburger" onClick={() => setMenue((prev) => !prev)}>
