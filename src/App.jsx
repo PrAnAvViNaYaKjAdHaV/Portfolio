@@ -10,7 +10,7 @@ function reveal() {
   while (i < reveals.length) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i] && reveals[i].getBoundingClientRect().top;
-    var elementVisible = 50;
+    var elementVisible = 20;
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
     } else {
